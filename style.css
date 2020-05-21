@@ -1,0 +1,43 @@
+@font-face{
+    font-family: "oxygen";
+    src: url("OxygenMono-Regular.ttf");
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-top: 100px;
+    background: rgb(214,220,221);
+    background: linear-gradient(180deg, rgba(214,220,221,1) 0%, rgba(149,160,163,1) 46%, rgba(0,0,0,1) 100%);
+    font-family: oxygen;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.block{
+    /*border: 2px;
+    box-shadow: 10px 5px 5px grey ;
+    border-radius: 30px;
+    /*background-image: url(textured-white-background.jpg);
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);*/
+    border-radius: 50px;
+    background: #55b9f3;
+    box-shadow:  41px 41px 82px #489dcf, 
+             -41px -41px 82px #62d5ff;
+}
+.profil{
+    width: 400px;
+    height: 400px;
+    
+}
+.photo{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
