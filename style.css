@@ -1,14 +1,14 @@
 @font-face{
     font-family: "oxygen";
-    src: url("OxygenMono-Regular.ttf");
+    src: url("Ressources/OxygenMono-Regular.ttf");
 }
 body{
     width: 100%;
     height: 100%;
     margin: auto;
     padding-top: 100px;
-    background: rgb(214,220,221);
-    background: linear-gradient(180deg, rgba(214,220,221,1) 0%, rgba(149,160,163,1) 46%, rgba(0,0,0,1) 100%);
+    background: rgb(66,66,66);
+    background: linear-gradient(180deg, rgba(66,66,66,1) 0%, rgba(9,9,9,1) 46%, rgba(80,80,80,1) 100%);
     font-family: oxygen;
 }
 .container{
@@ -20,24 +20,31 @@ body{
     
 }
 .block{
-    /*border: 2px;
-    box-shadow: 10px 5px 5px grey ;
-    border-radius: 30px;
-    /*background-image: url(textured-white-background.jpg);
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);*/
     border-radius: 50px;
-    background: #55b9f3;
-    box-shadow:  41px 41px 82px #489dcf, 
-             -41px -41px 82px #62d5ff;
+    background: linear-gradient(145deg, #bc9d18, #e0ba1d);
+    box-shadow:  20px 20px 60px #b29417, 
+                 -20px -20px 60px #f0c81f;
+    width: 450px;
+    text-align: center;
+    
 }
 .profil{
     width: 400px;
     height: 400px;
-    
+    border-radius: 50px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #45463a, #525344);
+    box-shadow:  20px 20px 60px #414236, 
+                 -20px -20px 60px #595a4a;
 }
 .photo{
     margin-top: 20px;
     margin-left: 5px;
     margin-right: 5px;
+
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+
 }
